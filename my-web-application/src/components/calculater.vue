@@ -1,8 +1,8 @@
-
+<template>
 <body>
     <div class="calculator">
         <input type="text" id="display" class="calculator-display" disabled>
-        <div class="calculator-keys"> <h3>my calculator</h3>
+        <div class="calculator-keys">
             <button class="key" onclick="appendNumber('7')">7</button>
             <button class="key" onclick="appendNumber('8')">8</button>
             <button class="key" onclick="appendNumber('9')">9</button>
@@ -27,8 +27,7 @@
         </div>
     </div>
     <!--<script src="script.js"></script>-->
-</body>
-</html>
+</body></template>
    <script>
     let display = document.getElementById('display');
 let currentInput = '';

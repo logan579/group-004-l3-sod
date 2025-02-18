@@ -1,8 +1,14 @@
-<template>
-<h1>calculater</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
     <div class="calculator">
         <input type="text" id="display" class="calculator-display" disabled>
-        <div class="calculator-keys"> <h3>my calculator</h3>
+        <div class="calculator-keys">
             <button class="key" onclick="appendNumber('7')">7</button>
             <button class="key" onclick="appendNumber('8')">8</button>
             <button class="key" onclick="appendNumber('9')">9</button>
@@ -27,11 +33,9 @@
         </div>
     </div>
     <!--<script src="script.js"></script>-->
+</body>
+</html>
    <script>
-export default {
-    name: 'HtmlCalculater'
-}
-
     let display = document.getElementById('display');
 let currentInput = '';
 let operator = '';
@@ -155,4 +159,5 @@ function clearDisplay() {
     background-color: #e03232;
 }
    </style>
-</template>
+</body>
+</html>
